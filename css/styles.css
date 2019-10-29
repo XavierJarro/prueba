@@ -1,0 +1,229 @@
+@charset "utf-8";
+@font-face {
+   font-family: Quicksand;
+   src: url('Quicksand-Regular.woff') format('woff'),
+   url('Quicksand-Regular.ttf') format('truetype');
+   }
+/*
+   <!--
+    Programación Hypermedial
+    Ingeniería de Sistemas
+    Séptimo Ciclo
+    
+    Practica02-CSS
+    Author: Xavier Jarro
+    Date: 24/10/2019  
+
+    Filename: styles.css
+   -->
+
+*/
+
+
+/*COLOR DE LETRAS*/
+body {
+   color: white;
+}
+
+h1 {
+   color: white;
+}
+
+h2 {
+   color: white;
+}
+
+article.titulos h2 {
+    color: rgba(253, 228, 0, 0.986);   
+}
+
+aside blockquote {
+   color: #fbe555;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+   color: #fbe555;
+}
+
+body > footer address {
+   color: rgb(57, 86, 155);   
+}
+nav > ul > li > a:hover, nav > ul > li > a:active {
+   color: white;
+}
+
+
+
+/*COLOR DE FONDO*/
+
+html {
+   background-color: #1A2849;
+}
+
+body {
+   background-color: #003F5C;
+}
+
+h1 {
+   background-color: #ff6361;
+}
+
+h2 {
+   background-color: #ff6361;
+}
+
+
+article.titulos h2 {
+   background: -webkit-linear-gradient(left, rgba(237,62,19,1) 0%, rgba(173,34,16,1) 11%, rgba(156,29,15,1) 31%, rgba(115,20,9,1) 59%, rgba(56,8,3,1) 100%);
+}
+
+
+body > footer address {
+   background-color: #23374d;
+}
+
+
+/* ESTILO DE LETRA */
+
+
+body {
+   font-family: Verdana, Geneva, sans-serif;
+}
+
+h1, h2 {
+   font-family: Quicksand, Verdana, Geneva, sans-serif;
+}
+
+aside blockquote {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+aside blockquote::before {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+aside blockquote::after {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* FOMRATO LETRAS */
+
+h1, h2 {
+   letter-spacing: 0.1em;   
+}
+
+h1 {
+   font-size: 2.2em;
+}
+
+h2 {
+   font-size: 1.5em;
+}
+
+p{
+   text-align: justify;
+}
+
+body > footer address {
+   font: normal small-caps bold 0.9em/3em Quicksand, Verdana, Geneva, sans-serif;
+}
+
+aside blockquote {
+   margin: 20px 5px;   
+}
+
+aside blockquote {
+   quotes: "\201C" "\201D";   
+} 
+/*sirve para poner comillas dobles a la izquierda y a la derecha*/
+
+
+
+aside {
+      font-size: 0.8em;   
+}
+
+aside blockquote::before {
+         content: open-quote;
+}
+
+aside blockquote::before {           
+   font-size: 1.6em;
+}
+
+aside blockquote::before {
+   font-weight: bold;
+}
+
+aside blockquote::after {
+            content: close-quote;
+}
+
+aside blockquote::after {
+   font-size: 1.6em;
+}
+
+aside blockquote::after {
+   font-weight: bold;
+}
+	
+nav {
+   font-size: 0.8em;
+}
+
+nav > ul {
+   line-height: 2em;
+}
+
+nav > ul {
+   list-style-type: none;
+}
+nav > ul {
+   padding-left: 5px;
+}
+
+nav > ul > li.newgroup {
+   margin-top: 20px;
+}
+
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+   text-decoration: none;
+}
+
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+   text-decoration: underline;
+}
+
+body > footer address {   
+   text-align: center;
+}
+
+/* CLASES */
+.destacado{
+   font-style: italic;
+   text-decoration: underline;
+}
+
+.himno{
+   text-align: center;
+   font-weight: bold;
+   border-style: solid;
+   border-color: rgba(0, 78, 151, 0.801);
+}
+
+.videos{
+	width: 100%;
+	height: 300px;
+}
+
+.imagenes{
+	border: solid 5px rgb(250, 225, 2);
+}
+
+
+
+
+

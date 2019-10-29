@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/*
+   <!--
+    Programación Hypermedial
+    Ingeniería de Sistemas
+    Séptimo Ciclo
+    
+    Practica02-CSS
+    Author: Xavier Jarro
+    Date: 24/10/2019  
+
+    Filename: layout.css
+   -->
+   
+
+*/
+
+/* BODY*/
+body {
+	margin: 0 auto;
+}
+
+body {
+	width: 100%;
+}
+
+body {
+	max-width: 1020px;
+}
+
+body {
+	min-width: 640px;
+}
+
+
+
+body > header {
+	margin: 0;
+}
+
+body > header {
+	width: 100%;
+}
+
+body > header {
+	overflow: hidden;
+}
+
+body > nav {
+	width: 20%;
+}
+
+body > nav {
+	float: left;
+}
+
+body > nav {
+	margin: 0 0 0 1.5%;
+}
+
+body > article#acerca {
+	width: 51%;
+}
+
+body > article#acerca {
+	float: left;
+}
+
+body > article#acerca {
+	margin: 0 3% 0 3%;
+}
+
+body > aside {
+	width: 20%;
+}
+
+body > aside {
+	float: left;
+}
+
+body > aside {
+	margin: 0 1.5% 0 0;
+}
+
+body > article#acerca img {
+	float: right;
+}
+
+body > article#acerca img {
+	width: 100%;
+}
+
+body > article#acerca img {
+	height: 10%;
+}
+
+body > article#acerca img {
+	margin: 0px 0 10px 10px;
+}
+
+article.titulos {
+    float: left;
+}
+article.titulos {
+	width: 74.5%;
+}
+article.titulos {
+	margin: 0 4% 0 0%;
+}
+
+
+body > footer {
+	width: 100%;
+}
+
+body > footer {
+	clear: left;
+}
+
+
+
